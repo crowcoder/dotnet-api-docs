@@ -16,6 +16,9 @@
     <AssemblyVersion>4.2.2.0</AssemblyVersion>
     <AssemblyVersion>4.2.3.0</AssemblyVersion>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.ServiceProcess" To="System.ServiceProcess.ServiceController" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0" />
+  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
   </Base>

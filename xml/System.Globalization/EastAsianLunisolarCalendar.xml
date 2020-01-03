@@ -27,6 +27,11 @@
     <AssemblyVersion>4.2.1.0</AssemblyVersion>
     <AssemblyVersion>4.2.2.0</AssemblyVersion>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="mscorlib" To="System.Runtime" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+    <TypeForwarding From="netstandard" To="System.Runtime" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+    <TypeForwarding From="System.Globalization.Calendars" To="System.Runtime" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Globalization.Calendar</BaseTypeName>
   </Base>

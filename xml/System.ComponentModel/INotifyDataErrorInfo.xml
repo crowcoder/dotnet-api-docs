@@ -26,6 +26,12 @@
   <AssemblyInfo>
     <AssemblyName>System.Windows</AssemblyName>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System" To="System.ObjectModel" FrameworkAlternate="dotnet-uwp-10.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+    <TypeForwarding From="System.Windows" To="System.ObjectModel" FrameworkAlternate="dotnet-uwp-10.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+    <TypeForwarding From="netstandard" To="System.ObjectModel" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+    <TypeForwarding From="System.Windows" To="System" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  </TypeForwardingChain>
   <Interfaces />
   <Docs>
     <summary>Defines members that data entity classes can implement to provide custom synchronous and asynchronous validation support.</summary>

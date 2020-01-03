@@ -26,6 +26,11 @@
   <AssemblyInfo>
     <AssemblyName>System.ComponentModel.TypeConverter</AssemblyName>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="netstandard" To="System.ComponentModel.Primitives" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+    <TypeForwarding From="System.ComponentModel.TypeConverter" To="System.ComponentModel.Primitives" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+    <TypeForwarding From="System" To="System.ComponentModel.Primitives" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+  </TypeForwardingChain>
   <Interfaces />
   <Docs>
     <summary>Specifies that this object supports a simple, transacted notification for batch initialization.</summary>

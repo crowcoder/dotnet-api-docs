@@ -19,6 +19,10 @@
     <AssemblyName>netstandard</AssemblyName>
     <AssemblyVersion>2.1.0.0</AssemblyVersion>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="netstandard" To="System.Data.Common" FrameworkAlternate="netcore-3.0" />
+    <TypeForwarding From="System.Data.DataSetExtensions" To="System.Data.Common" FrameworkAlternate="netcore-3.0" />
+  </TypeForwardingChain>
   <TypeParameters>
     <TypeParameter Name="T">
       <Constraints>

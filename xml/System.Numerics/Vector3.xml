@@ -25,6 +25,11 @@
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>2.1.0.0</AssemblyVersion>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.Numerics" To="System.Numerics.Vectors" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+    <TypeForwarding From="netstandard" To="System.Numerics.Vectors" FrameworkAlternate="netcore-3.0" />
+    <TypeForwarding From="System.Numerics.Vectors" To="System.Numerics" FrameworkAlternate="netframework-4.6;netframework-4.6.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
   </Base>

@@ -16,6 +16,9 @@
     <AssemblyName>System.Security.Principal.Windows</AssemblyName>
     <AssemblyVersion>4.1.1.0</AssemblyVersion>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="mscorlib" To="System.Security.Principal.Windows" FrameworkAlternate="netcore-3.0" />
+  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>

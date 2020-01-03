@@ -22,6 +22,11 @@
     <AssemblyVersion>4.2.0.0</AssemblyVersion>
     <AssemblyVersion>4.2.1.0</AssemblyVersion>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.Drawing.Common" To="System.Drawing.Primitives" FrameworkAlternate="dotnet-plat-ext-3.0;netcore-3.0" />
+    <TypeForwarding From="System.Drawing" To="System.Drawing.Common" FrameworkAlternate="netcore-2.1;netcore-2.2" />
+    <TypeForwarding From="System.Drawing" To="System.Drawing.Primitives" FrameworkAlternate="netcore-3.0" />
+  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>

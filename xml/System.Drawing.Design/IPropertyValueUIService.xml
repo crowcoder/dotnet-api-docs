@@ -15,6 +15,9 @@
     <AssemblyName>System.Windows.Forms</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.Drawing" To="System.Windows.Forms" FrameworkAlternate="netcore-3.0" />
+  </TypeForwardingChain>
   <Interfaces />
   <Docs>
     <summary>Provides an interface to manage the images, ToolTips, and event handlers for the properties of a component displayed in a property browser.</summary>

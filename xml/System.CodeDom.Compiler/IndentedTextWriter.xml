@@ -26,6 +26,11 @@
   <AssemblyInfo>
     <AssemblyName>System.IO</AssemblyName>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="netstandard" To="System.Runtime.Extensions" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+    <TypeForwarding From="System" To="System.Runtime.Extensions" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+    <TypeForwarding From="System.IO" To="System.Runtime.Extensions" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.IO.TextWriter</BaseTypeName>
   </Base>

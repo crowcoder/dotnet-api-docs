@@ -23,6 +23,13 @@
     <AssemblyVersion>4.1.1.0</AssemblyVersion>
     <AssemblyVersion>4.1.2.0</AssemblyVersion>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System" To="System.ObjectModel" FrameworkAlternate="netcore-3.0" />
+    <TypeForwarding From="WindowsBase" To="System.ObjectModel" FrameworkAlternate="netcore-3.0" />
+    <TypeForwarding From="WindowsBase" To="System.Xaml" FrameworkAlternate="netframework-4.0" />
+    <TypeForwarding From="System.Xaml" To="System" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+    <TypeForwarding From="WindowsBase" To="System" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Attribute</BaseTypeName>
   </Base>

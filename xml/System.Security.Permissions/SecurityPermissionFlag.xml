@@ -26,6 +26,11 @@
   <AssemblyInfo>
     <AssemblyName>System.Security.Permissions</AssemblyName>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.Security.Permissions" To="System.Runtime.Extensions" FrameworkAlternate="dotnet-plat-ext-3.0;netcore-3.0" />
+    <TypeForwarding From="mscorlib" To="System.Runtime.Extensions" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+    <TypeForwarding From="netstandard" To="System.Runtime.Extensions" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>

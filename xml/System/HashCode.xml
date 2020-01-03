@@ -17,6 +17,10 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Bcl.HashCode</AssemblyName>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="Microsoft.Bcl.HashCode" To="System.Runtime" FrameworkAlternate="dotnet-plat-ext-3.0" />
+    <TypeForwarding From="netstandard" To="System.Runtime" FrameworkAlternate="netcore-3.0" />
+  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
   </Base>

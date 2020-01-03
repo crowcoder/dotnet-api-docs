@@ -27,6 +27,12 @@
   <AssemblyInfo>
     <AssemblyName>System.Runtime.Serialization.Xml</AssemblyName>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.Runtime.Serialization" To="System.Runtime.Serialization.Xml" FrameworkAlternate="dotnet-uwp-10.0" />
+    <TypeForwarding From="System.Runtime.Serialization.Xml" To="System.Runtime.Serialization.Primitives" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+    <TypeForwarding From="netstandard" To="System.Runtime.Serialization.Primitives" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+    <TypeForwarding From="System.Runtime.Serialization" To="System.Runtime.Serialization.Primitives" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Exception</BaseTypeName>
   </Base>

@@ -21,6 +21,9 @@
   <AssemblyInfo>
     <AssemblyName>System.IO.Pipes</AssemblyName>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.Core" To="System.IO.Pipes.AccessControl" FrameworkAlternate="netcore-3.0" />
+  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>

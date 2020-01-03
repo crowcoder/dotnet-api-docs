@@ -25,6 +25,12 @@
     <AssemblyVersion>4.2.1.0</AssemblyVersion>
     <AssemblyVersion>4.2.2.0</AssemblyVersion>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.Core" To="System.Dynamic.Runtime" FrameworkAlternate="dotnet-uwp-10.0" />
+    <TypeForwarding From="netstandard" To="System.Linq.Expressions" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+    <TypeForwarding From="System.Core" To="System.Linq.Expressions" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+    <TypeForwarding From="System.Dynamic.Runtime" To="System.Linq.Expressions" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+  </TypeForwardingChain>
   <TypeParameters>
     <TypeParameter Name="T">
       <Constraints>

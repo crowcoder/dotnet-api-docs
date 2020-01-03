@@ -17,6 +17,10 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Bcl.AsyncInterfaces</AssemblyName>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="Microsoft.Bcl.AsyncInterfaces" To="netstandard" FrameworkAlternate="dotnet-plat-ext-3.0" />
+    <TypeForwarding From="netstandard" To="System.Runtime" FrameworkAlternate="netcore-3.0" />
+  </TypeForwardingChain>
   <TypeParameters>
     <TypeParameter Name="TResult" />
   </TypeParameters>
