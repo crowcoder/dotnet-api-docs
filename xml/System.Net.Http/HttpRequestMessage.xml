@@ -33,7 +33,7 @@
       <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- The <xref:System.Net.Http.HttpRequestMessage> class contains headers, the HTTP verb, and potentially data.  
+ The <xref:System.Net.Http.HttpRequestMessage> class contains headers, the HTTP method, and potentially data.  
   
  ]]></format>
     </remarks>
